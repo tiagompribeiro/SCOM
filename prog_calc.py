@@ -1,3 +1,4 @@
+#https://www.geeksforgeeks.org/count-sum-of-digits-in-numbers-from-1-to-n/?fbclid=IwAR33_JewhVTW2X1B1HKxWDWMk4QzRqUMsl3T4l8yFooUgVeezZ-TdIzCJ1w
 # A Simple Python program to compute sum 
 # of digits in numbers from 1 to n 
   
