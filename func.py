@@ -28,16 +28,16 @@ def sumOfDigits(x) :
 # /usr/lib/cgi-bin/
 print "<html>"
 
-print "<title> test val </title>"
+print "<title> SCOM - LAB1 </title>"
 
 print "<body>"
 print "<h3>"
-print "Number pass : "
+print "Number inserted : "
 print form.getfirst('fnumber')
 print "</h3>"
 print "<body>"
 print "<h3>"
-print "Number calc : "
+print "Result : "
 print sumOfDigitsFrom1ToN(form.getfirst('fnumber'))
 print "</h3>"
 print "</body>"
