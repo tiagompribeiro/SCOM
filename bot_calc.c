@@ -15,7 +15,7 @@ int main (int argc , char *argv[]){
 	
 	start=clock();
     for (int i=0;i< atoi(argv[1]);i++){
-        system("curl -d fnumber=4 localhost:80/cgi-bin/func.py");
+        system("curl -d fnumber=4 localhost:80/cgi-bin/func.py > /dev/null");
     }
 	end=clock();
 	double cpu_time_used=((double)(end-start))/CLOCKS_PER_SEC;
