@@ -18,7 +18,7 @@ int main (int argc , char *argv[]){
     if (atoi(argv[1])<=0) {printf("usage: ./bot N J, N=nº_calls J=nº_tries (int>0)\n\n"); return 0;}
     if (atoi(argv[2])<=0) {printf("usage: ./bot N J, N=nº_calls J=nº_tries  (int>0)\n\n"); return 0;}
 
-    char str1[]="curl --silent -d fnumber=X localhost:80/cgi-bin/func.py > /dev/null";
+    char str1[]="curl --silent -d fnumber=X localhost:80/cgi-bin/func.py > /dev/null"; // X is sub
 	double cpu_time_used_total= 0;
 	int random,num_samples=0;
     double media=0,desvio_aux=0;
