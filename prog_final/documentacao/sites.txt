@@ -1,0 +1,5 @@
+
+info sobre micro
+https://learn.adafruit.com/adafruit-feather-huzzah-esp8266
+
+
